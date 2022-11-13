@@ -1,0 +1,119 @@
+[0m[0K[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin"[0K,[?25l
+ "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields"[0K:
+ {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.content[0Kt
+ype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "c[0Ko
+ntenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "mode[0Kl
+": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"[0Ka
+pp_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttyp[0Ke
+", "pk": 6, "fields": {"app_label": "users", "model": "user"}}, {"model": "cont[0Ke
+nttypes.contenttype", "pk": 7, "fields": {"app_label": "reviews", "model": "rev[0Ki
+ew"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "[0Kr
+eviews", "model": "comment"}}, {"model": "contenttypes.contenttype", "pk": 9, "[0Kf
+ields": {"app_label": "title", "model": "category"}}, {"model": "contenttypes.c[0Ko
+ntenttype", "pk": 10, "fields": {"app_label": "title", "model": "genre"}}, {"mo[0Kd
+el": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "title", "mo[0Kd
+el": "title"}}, {"model": "sessions.session", "pk": "oys998aoxpaxcc3sc75dp63u2b[0Kj
+t0t19", "fields": {"session_data": "YTQ3ZGU4MzFkZjg5ZTNlNWE4YjNlOTgyNGRlZGJhMzc[0K3
+N2RhNThlYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmN[0Kv
+bnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlN2VkY2F[0Kj
+MzNiYjg2YTMyMmQ4ODNkYzc1MThkODYyMGY1YjNlYzIwIn0=", "expire_date": "2022-11-17T0[0K7
+:12:46.293Z"}}, {"model": "title.category", "pk": 1, "fields": {"name": "a", "s[0Kl
+ug": "s"}}, {"model": "title.genre", "pk": 1, "fields": {"name": "1", "slug": "[0K1
+"}}, {"model": "title.title", "pk": 1, "fields": {"name": "1", "category": null[0K,
+ "year": 1, "description": "1", "genre": [1]}}, {"model": "auth.permission", "p[0Kk
+": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "a[0Kd
+d_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can ch[0Ka
+nge log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "[0Ka
+uth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_t[0Ky
+pe": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, [0K"
+fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_lo[0Kg
+entry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add per[0Km
+ission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.per[0Km
+ission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2[0K,
+ "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fiel[0Kd
+s": {"name": "Can delete permission", "content_type": 2, "codename": "delete_pe[0Kr
+mission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view [0Kp
+ermission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth[0K.
+permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "c[0Ko
+dename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name[0K"
+: "Can change group", "content_type": 3, "codename": "change_group"}}, {"model"[0K:
+ "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_t[0Ky
+pe": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "f[0Ki
+elds": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}[0K,
+ {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content typ[0Ke
+", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permissi[0Ko
+n", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, [0K"
+codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fiel[0Kd
+s": {"name": "Can delete content type", "content_type": 4, "codename": "delete_[0Kc
+ontenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can v[0Ki
+ew content type", "content_type": 4, "codename": "view_contenttype"}}, {"model"[0K:
+ "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_ty[0Kp
+e": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fie[0Kl
+ds": {"name": "Can change session", "content_type": 5, "codename": "change_sess[0Ki
+on"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete se[0Ks
+sion", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permi[0Ks
+sion", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "cod[0Ke
+name": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"nam[0Ke
+": "Can add user", "content_type": 6, "codename": "add_user"}}, {"model": "auth[0K.
+permission", "pk": 22, "fields": {"name": "Can change user", "content_type": 6,[0K
+"codename": "change_user"}}, {"model": "auth.permission", "pk": 23, "fields": {[0K"
+name": "Can delete user", "content_type": 6, "codename": "delete_user"}}, {"mod[0Ke
+l": "auth.permission", "pk": 24, "fields": {"name": "Can view user", "content_t[0Ky
+pe": 6, "codename": "view_user"}}, {"model": "auth.permission", "pk": 25, "fiel[0Kd
+s": {"name": "Can add \u041e\u0442\u0437\u044b\u0432", "content_type": 7, "code[0Kn
+ame": "add_review"}}, {"model": "auth.permission", "pk": 26, "fields": {"name":[0K
+"Can change \u041e\u0442\u0437\u044b\u0432", "content_type": 7, "codename": "ch[0Ka
+nge_review"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can d[0Ke
+lete \u041e\u0442\u0437\u044b\u0432", "content_type": 7, "codename": "delete_re[0Kv
+iew"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view \u0[0K4
+1e\u0442\u0437\u044b\u0432", "content_type": 7, "codename": "view_review"}}, {"[0Km
+odel": "auth.permission", "pk": 29, "fields": {"name": "Can add \u041a\u043e\u0[0K4
+3c\u0435\u043d\u0442\u0430\u0440\u0438\u0439", "content_type": 8, "codename": "[0Ka
+dd_comment"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can c[0Kh
+ange \u041a\u043e\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439", "content_ty[0Kp
+e": 8, "codename": "change_comment"}}, {"model": "auth.permission", "pk": 31, "[0Kf
+ields": {"name": "Can delete \u041a\u043e\u043c\u0435\u043d\u0442\u0430\u0440\u[0K0
+438\u0439", "content_type": 8, "codename": "delete_comment"}}, {"model": "auth.[0Kp
+ermission", "pk": 32, "fields": {"name": "Can view \u041a\u043e\u043c\u0435\u04[0K3
+d\u0442\u0430\u0440\u0438\u0439", "content_type": 8, "codename": "view_comment"[0K}
+}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add \u041a\u0[0K4
+30\u0442\u0435\u0433\u043e\u0440\u0438\u044f", "content_type": 9, "codename": "[0Ka
+dd_category"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can [0Kc
+hange \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f", "content_type": [0K9
+, "codename": "change_category"}}, {"model": "auth.permission", "pk": 35, "fiel[0Kd
+s": {"name": "Can delete \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f[0K"
+, "content_type": 9, "codename": "delete_category"}}, {"model": "auth.permissio[0Kn
+", "pk": 36, "fields": {"name": "Can view \u041a\u0430\u0442\u0435\u0433\u043e\[0Ku
+0440\u0438\u044f", "content_type": 9, "codename": "view_category"}}, {"model": [0K"
+auth.permission", "pk": 37, "fields": {"name": "Can add \u0416\u0430\u043d\u044[0K0
+", "content_type": 10, "codename": "add_genre"}}, {"model": "auth.permission", [0K"
+pk": 38, "fields": {"name": "Can change \u0416\u0430\u043d\u0440", "content_typ[0Ke
+": 10, "codename": "change_genre"}}, {"model": "auth.permission", "pk": 39, "fi[0Ke
+lds": {"name": "Can delete \u0416\u0430\u043d\u0440", "content_type": 10, "code[0Kn
+ame": "delete_genre"}}, {"model": "auth.permission", "pk": 40, "fields": {"name[0K"
+: "Can view \u0416\u0430\u043d\u0440", "content_type": 10, "codename": "view_ge[0Kn
+re"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add title[0K"
+, "content_type": 11, "codename": "add_title"}}, {"model": "auth.permission", "[0Kp
+k": 42, "fields": {"name": "Can change title", "content_type": 11, "codename": [0K"
+change_title"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can[0K
+delete title", "content_type": 11, "codename": "delete_title"}}, {"model": "aut[0Kh
+.permission", "pk": 44, "fields": {"name": "Can view title", "content_type": 11[0K,
+ "codename": "view_title"}}, {"model": "users.user", "pk": 1, "fields": {"last_[0Kl
+ogin": "2022-11-03T07:12:46.291Z", "is_superuser": true, "first_name": "", "las[0Kt
+_name": "", "is_staff": true, "is_active": true, "date_joined": "2022-11-03T07:[0K1
+2:26.455Z", "username": "Admin", "email": "Admin@mail.ru", "password": "pbkdf2_[0Ks
+ha256$150000$07aELxqY4Fpd$0sDROEi+mBdi21dVgUHAGK+/3hCACLaWdrY3XhnJotw=", "role"[0K:
+ "admin", "confirmation_code": null, "bio": "", "groups": [], "user_permissions[0K"
+: []}}, {"model": "reviews.review", "pk": 1, "fields": {"author": 1, "pub_date"[0K:
+ "2022-11-03T07:15:33.144Z", "text": "1", "title": null, "score": 1}}, {"model"[0K:
+ "admin.logentry", "pk": 1, "fields": {"action_time": "2022-11-03T07:15:33.145Z[0K"
+, "user": 1, "content_type": 7, "object_id": "1", "object_repr": "1", "action_f[0Kl
+ag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "p[0Kk
+": 2, "fields": {"action_time": "2022-11-03T07:15:49.620Z", "user": 1, "content[0K_
+type": 10, "object_id": "1", "object_repr": "1", "action_flag": 1, "change_mess[0Ka
+ge": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"ac[0Kt
+ion_time": "2022-11-03T07:15:50.994Z", "user": 1, "content_type": 11, "object_i[0Kd
+": "1", "object_repr": "Title object (1)", "action_flag": 1, "change_message": [0K"
+[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_t[0Ki
+me": "2022-11-03T07:16:00.982Z", "user": 1, "content_type": 9, "object_id": "1"[0K,
+ "object_repr": "a", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}][0K[?25h
