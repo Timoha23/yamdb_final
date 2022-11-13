@@ -1,7 +1,7 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-from users.models import User
 from title.models import Title
+from users.models import User
 
 
 class ReviewAndComment(models.Model):

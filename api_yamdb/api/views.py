@@ -1,5 +1,9 @@
 from random import randint
 
+from api.paginator import CommentPagination
+from api.permissions import (AdminOnly, IsAdminOrAuthorOrReadOnly,
+                             IsAdminOrReadOnly)
+from api.serializers import CommentsSerializer, ReviewsSerializer
 from django.core.mail import send_mail
 from django.db.models import Avg
 from django.shortcuts import get_object_or_404
@@ -17,16 +21,11 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from title.models import Category, Genre, Title
 from users.models import User
 
-from api.paginator import CommentPagination
-from api.permissions import (IsAdminOrAuthorOrReadOnly,
-                             IsAdminOrReadOnly, AdminOnly)
-from api.serializers import CommentsSerializer, ReviewsSerializer
-
+from .filter import TitleFilter
 from .serializers import (CategorySerializer, GenreSerializer,
                           TitleCreateSerializer, TitleSerializer,
                           UserGetTokenSerializer, UserSerializer,
                           UserSignUpSerializer)
-from .filter import TitleFilter
 
 
 class UserSignUp(APIView):
