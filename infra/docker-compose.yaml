@@ -9,7 +9,7 @@ services:
       - ./.env
   
   web:
-    build: ../api_yamdb
+    image: timoha21/infra-actions:latest
     restart: always
     volumes:
       - static_value:/app/static/

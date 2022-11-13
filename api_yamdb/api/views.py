@@ -1,4 +1,3 @@
-
 from random import randint
 
 from django.core.mail import send_mail
