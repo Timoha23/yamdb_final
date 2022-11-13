@@ -54,9 +54,9 @@ class UserSignUp(APIView):
             return Response(serializer.data, status=HTTP_200_OK)
 
         # Если юзер есть в базе, но конфирм кода нет (зареган админом)
-        elif User.objects.filter(username=serializer.data.get('username'),
-                                 email=serializer.data.get('email'),
-                                 confirmation_code=None).exists():
+        if User.objects.filter(username=serializer.data.get('username'),
+                               email=serializer.data.get('email'),
+                               confirmation_code=None).exists():
             username = serializer.data.get('username')
             email = serializer.data.get('email')
             confirmation_code = randint(1000, 999999)
