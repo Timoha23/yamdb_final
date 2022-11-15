@@ -1,4 +1,7 @@
 ## API_YAMDB
+
+![workflow](https://github.com/Timoha23/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ## Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий (Category) может быть расширен администратором.
 ### 1. Шаблон наполнения .env:
@@ -51,5 +54,3 @@
 Запуск:
 
     docker-compose start
-
-![workflow](https://github.com/Timoha23/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
