@@ -36,3 +36,4 @@ volumes:
   postgres_value:
   static_value:
   media_value:
+  
