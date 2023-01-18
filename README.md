@@ -13,18 +13,7 @@
 * Docker;
 * PostgreSQL.
 
-## 1. Шаблон наполнения .env:
-
-    DB_ENGINE=django.db.backends.postgresql
-    DB_NAME=postgres
-    POSTGRES_USER=postgres
-    POSTGRES_PASSWORD=postgres
-    DB_HOST=db
-    DB_PORT=5432
-
-## 2. Запуск проекта:
-
-    
+## 1. Запуск проекта:
 
  Клонирование проекта:
  
@@ -50,12 +39,12 @@
 
     docker-compose exec web python manage.py createsuperuser
 
-## 3. Заполнение базы данных проекта:
+## 2. Заполнение базы данных проекта:
 Имея логин и пароль, созданного нами ранее, суперюзера, переходим по следующей ссылке: http://localhost/admin/, авторизовываемся и вносим нужные записи в базу данных.
 Для создания резервной копии (дампа) базы данных используем следующую команду:
 
     docker-compose exec web python manage.py dumpdata > fixtures.json
-## 4. Остановка и запуск контейнеров:
+## 3. Остановка и запуск контейнеров:
 Остановка:
 
     docker-compose stop
@@ -63,6 +52,15 @@
 Запуск:
 
     docker-compose start
+
+## 4. Шаблон наполнения .env:
+
+    DB_ENGINE=django.db.backends.postgresql
+    DB_NAME=postgres
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=postgres
+    DB_HOST=db
+    DB_PORT=5432
 
 **Автор:**
 *Ершов Тимофей Сергеевич*
